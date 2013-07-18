@@ -1,3 +1,17 @@
 <environments>
-    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production"/>
+    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server desc="server" name="server">
+            <context>JqueryMultichannel</context>
+            <deploy_dir>C:/DELL/drivers/</deploy_dir>
+            <admin_username>admin</admin_username>
+            <additional_context/>
+            <port>5050</port>
+            <admin_password>admin</admin_password>
+            <version>7.0.x</version>
+            <type>Apache Tomcat</type>
+            <remoteDeployment>false</remoteDeployment>
+            <protocol>http</protocol>
+            <host>172.16.18.84</host>
+        </Server>
+    </environment>
 </environments>

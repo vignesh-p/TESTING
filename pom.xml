@@ -6,6 +6,9 @@
     <packaging>war</packaging>
     <name>HTML5 Jquery Widget-html5jquerymobilewidget</name>
     <version>1.0</version>
+    <scm>
+        <connection>https://github.com/vignesh-p/TESTING.git</connection>
+    </scm>
     <build>
         <sourceDirectory>${phresco.source.directory}</sourceDirectory>
         <testSourceDirectory>${testSourceDirectory}</testSourceDirectory>
